@@ -6,31 +6,23 @@ O objetivo foi criar consultas SQL para extrair informações relevantes para as
 ---
 
 ## Consultas Implementadas
-1. Clientes sem compras
-2. Produtos não comprados
-3. Produtos sem estoque
-4. Vendas por marca e loja
-5. Funcionários sem pedidos
+1. Listar todos Clientes que não tenham realizado uma compra
+2. Listar os Produtos que não tenham sido comprados
+3. Listar os Produtos sem Estoque
+4. Agrupar a quantidade de vendas que uma determinada Marca por Loja
+5. Listar os Funcionários que não estejam relacionados a um Pedido
 ---
 
 ## 🛠 Tecnologias Utilizadas
 - **SQL Server** (T-SQL)
-- Modelo de dados **Bike Stores Inc**
-
+- Visual Studio Code
+- *SSSMS* (SQL Server Management Studio)
 ---
 
 ## 🚀 Como Executar
 1. **Importar o modelo de dados** da Bike Stores Inc no seu SQL Server.
 2. Abrir o arquivo `consultas.sql` em um cliente SQL (SSMS, Azure Data Studio, etc.).
 3. Executar cada query para visualizar os resultados.
-
----
-
-## 📄 Observações
-- As consultas foram escritas para **SQL Server**.  
-  Pequenas alterações podem ser necessárias para rodar em outros SGBDs.
-- Os resultados podem variar conforme os dados da base.
-
 ---
 
 ## ✍ Créditos
